@@ -10,7 +10,7 @@ import { onboarding } from "@/constants";
 
 const  Onboarding= () => {
   const swiperRef = useRef<Swiper>(null);
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(0);  
   const isLastSlide = activeIndex === onboarding.length - 1;
 
     return(
